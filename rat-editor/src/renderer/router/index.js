@@ -19,8 +19,8 @@ export default new Router({
 
     {
       path: '/next',
-      name: 'next-page',
-      component: require('@/components/Next').default
+      name: 'markdown-page',
+      component: require('@/components/MarkdownPage').default
     },
 
     {
