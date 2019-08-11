@@ -11,6 +11,12 @@ export default new Router({
       component: require('@/components/LandingPage').default
     },
 
+    // {
+    //   path: '/next',
+    //   name: 'next-page',
+    //   component: require('@/components/Next').default
+    // },
+
     {
       path: '/next',
       name: 'next-page',
