@@ -1,0 +1,29 @@
+html, body, #editor {
+    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+}
+
+textarea, #editor div {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100vh;
+    padding: 0 20px;
+    vertical-align: top;
+    width: 49%;
+}
+
+textarea {
+    background-color: #f6f6f6;
+    border: none;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Monaco', courier, monospace;
+    resize: none;
+    outline: none;
+    padding: 20px;
+}
+
+code {
+    color: #f66;
+}
