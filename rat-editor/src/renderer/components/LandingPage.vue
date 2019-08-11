@@ -7,6 +7,7 @@
           Welcome to your new project!
         </span>
         <system-information></system-information>
+        <router-link to="/next">画面遷移します</router-link>
       </div>
 
       <div class="right-side">

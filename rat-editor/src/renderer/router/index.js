@@ -10,6 +10,13 @@ export default new Router({
       name: 'landing-page',
       component: require('@/components/LandingPage').default
     },
+
+    {
+      path: '/next',
+      name: 'next-page',
+      component: require('@/components/Next').default
+    },
+
     {
       path: '*',
       redirect: '/'
