@@ -17,7 +17,7 @@ export default {
     },
     computed: {
         compiledMarkdown() {
-            return marked(this.input);
+            return DOMPurify.sanitize(marked(this.input));
         },
     },
     methods: {
