@@ -12,5 +12,6 @@
 
 <style>
   /* CSS */
+  @import './assets/css/normalize.css';
   @import './assets/css/style.css';
 </style>
