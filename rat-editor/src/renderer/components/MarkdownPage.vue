@@ -7,6 +7,7 @@
 
 <script>
 import marked from 'marked';
+import DOMPurify from 'DOMPurify';
 
 export default {
     data() {
