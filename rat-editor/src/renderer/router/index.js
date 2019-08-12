@@ -5,11 +5,11 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'landing-page',
-      component: require('@/components/LandingPage').default
-    },
+    // {
+    //   path: '/',
+    //   name: 'landing-page',
+    //   component: require('@/components/LandingPage').default
+    // },
 
     // {
     //   path: '/next',
@@ -18,7 +18,7 @@ export default new Router({
     // },
 
     {
-      path: '/next',
+      path: '/',
       name: 'markdown-page',
       component: require('@/components/MarkdownPage').default
     },
