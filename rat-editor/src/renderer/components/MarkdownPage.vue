@@ -12,7 +12,7 @@ import DOMPurify from 'DOMPurify';
 export default {
     data() {
         return {
-            input: '# hello',
+            input: '',
         };
     },
     computed: {
